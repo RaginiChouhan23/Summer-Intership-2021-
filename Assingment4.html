@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<head>
+</head>
+<body>
+    <center>
+        
+    <h1>greater number</h1>
+
+ first:<input type="first" id="a1"><br><br>
+ 
+ second:<input type="second" id="a2"><br><br>
+
+third :<input type="third" id="a3"><br><br>
+
+ <button onclick="xyz()"> result</button><br>
+<p id="p1"></p>
+</center>
+<script>
+ function xyz(){
+ let a = a1.value
+ let b = a2.value
+ let c = a3.value
+ const x = ['first is greater']; 
+ const y = ['second is greater']; 
+ const z = ['third is greater']; 
+if (a>=b && a>=c)
+{
+ p1.innerHTML = x
+}
+else if (b>=a && b>=c)
+{
+ p1.innerHTML = y
+}
+else
+{
+ p1.innerHTML = z
+}
+ }
+</script>
+</body>
+</html>
